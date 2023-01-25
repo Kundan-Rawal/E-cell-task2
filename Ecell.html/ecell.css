@@ -1,0 +1,128 @@
+.stimg{height: 100px;px;
+width:70px;}
+.head1{padding-top:20px;}
+.search{border-radius:10px;
+height:50px;
+width:300px;
+margin-top:20px;
+font-size: 25px;
+}
+.searchimg{height:50px;
+background-size:cover;
+margin-top:20px;
+margin-left:5px;}
+
+.navbar{background-color:rgb(255, 149, 0);
+margin-top:5px;
+vertical-align:center;
+padding-top:5px;
+padding-left:30px;
+padding-right:30px;}
+.smimg1{height:45px;
+background-size:cover;
+margin-top:15px;
+
+border-radius: 5px;}
+.navoption{margin-left:20px;
+color:white;
+font-size:30px;
+padding-top:10px; }
+.navoption1{margin-left:20px;
+    color:white;
+font-size:40px}
+.navimg{height:70px;
+    width:200px;
+border-radius:5px;
+background-size:cover;
+margin:1px;}
+.carousel1{height:600px;
+width:40vw;}
+.impo{color:white;
+background-color:rgb(12, 5, 74);
+width:30vw}
+.impoimg{height:100px;
+width:100px;}
+.impoline{font-size:30px;
+font-weight:bold;
+text-align: center;}
+.impborder{border-style:solid;
+border-width: 2px;}
+.impeach{padding:10px;}
+.ministryd{width:30vw;}
+.ministryhead1{text-align:center;
+background-color:rgb(118, 248, 118);
+font-size:50px}
+.paramin{font-size:20px;
+margin:20px;
+}
+.couimg{background-size:cover}
+
+
+.defencex{height:150px;
+width:150px;}
+.implinkspara{width:150px}
+.divfborder{border-style:solid;
+border-width:2px;
+padding:5px;}
+.footindi{margin:30px;
+font-size:20px;}
+.footback{background-color:rgb(3, 3, 60);
+margin-top:20px;
+color:white;}
+
+
+.abouthead1{font-size:50px;}
+.aboutpara{font-size: 20px;}
+.carousel2{height:600px;
+    width:1000px}
+.galdescr{font-size:50px;
+font-weight:bold}
+.carousel3{
+    width:400px
+height:500px}
+.galleryparahead{font-size:45px;
+}
+.smallimggal{height:50px;
+width:50px;
+margin:10px;}
+.galleypara{font-size:30px;}
+
+.donatehead1{font-size:45px;
+background-color: rgb(111, 59, 11);
+width:60vw;
+text-align: center;
+color:white;}
+.donatebg{background-color:rgb(250, 199, 152);
+border-radius:25px;
+width:65vw;
+height:70vh;
+margin:5px;}
+.label{font-size:30px}
+.upi{width:100px;
+height:70px;
+background-size:cover;}
+.donate{background-color:rgb(33, 44, 157);
+color:aliceblue}
+.donatebg2{background-color:rgb(120, 170, 250);
+width:25vw;
+border-radius:25px;
+border-top-left-radius: 25px;
+height:70vh;
+margin:5px
+}
+.feedback{height:350px;
+width:700px;}
+.carousel4{width:40vw;
+border-radius:25px;
+margin:10px;}
+.mainheading{font-size:60px;
+text-align:center;
+margin:20px;
+font-weight:bold}
+.mainimg{height:250px;
+width:250px;}
+.mainpara{width:45vw}
+.mainsmalling{height:150px;
+width:150px;
+border-radius: 15px;
+margin:10px;}
