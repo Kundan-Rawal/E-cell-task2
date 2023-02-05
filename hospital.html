@@ -1,0 +1,635 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+   <link rel="stylesheet" href="hospital.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <div>
+    <nav class="nav2 d-flex flex-column justify-content-center">
+        <div class="d-flex flex-row justify-content-between new">
+            
+            <div class="d-flex flex-row husk">      
+                <a href="#sectionhome" class="fas fa-plus plus"></a>
+                <H1 class="gradient-text">Aventura Hospitals</H1>
+            </div>
+            <div class="d-flex flex-column justify-content-center ji">
+                <div class="d-flex flex-row ned kl">
+                    <a href="#"> <p class="navopt">Home</p></a>
+                    <a href="#sectiondoctor"> <p class="navopt">Doctors</p></a>
+                    <a href="#sectionpatient"> <p class="navopt">Patients</p></a>
+                    <a href="#sectionvisitor"> <P class="navopt">Visitors</P></a>
+                    
+                    <div>
+                    <a href="#" class="d-flex flex-row"> 
+                    
+                   
+                        <a class="nav-link dropdown-toggle dtoogle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Tools</a>
+                        <div class="dropdown-menu">
+                          <a class="dropdown-item" href="#sectiondoctor"><img src="https://th.bing.com/th/id/R.7be981e74ad9124352cf4d4e8d364d49?rik=vIKO4CQWUVUnXQ&riu=http%3a%2f%2fcdn.onlinewebfonts.com%2fsvg%2fimg_491370.png&ehk=%2bTHGGOpL0zVYcZfhpqMN78fRIrRVo1QIOyMiiboEYAA%3d&risl=&pid=ImgRaw&r=0" class="smallimg"/>Find a Doctor</a>
+                          <a class="dropdown-item" href="#sectionpatient"><img src="https://th.bing.com/th/id/R.e610dc2270e4835d03746ea36387ba6d?rik=Szm8gpJ%2f4%2fwhIg&riu=http%3a%2f%2fcliparts.co%2fcliparts%2fpT7%2fK9d%2fpT7K9dg6c.jpg&ehk=GegHbCm0xbiXxv0j5t7cnZfnGnTs73AmTE822V3f%2fQg%3d&risl=&pid=ImgRaw&r=0" class="smallimg"/>Find a Speciality</a>
+                          <a class="dropdown-item" href="#sectionvisitor"><img src="https://production-next-images-cdn.thumbtack.com/i/356401994206961690/width/1024.jpeg" class="smallimg"/>Call for nurse consultaion</a>
+                          <a class="dropdown-item" href="#sectionpatient"><img src="https://th.bing.com/th/id/OIP.KEVQYxwhM5GLM_FBLXK3aAHaHa?pid=ImgDet&rs=1" class="smallimg"/>Pay My Bills</a>
+                          <a class="dropdown-item" href="#sectionmedical"><img src="https://th.bing.com/th/id/R.cd3333ee7cbf08cad99a71ef3bc54134?rik=jRMJGW6M%2fxcG%2bA&riu=http%3a%2f%2fsbsystem.it%2fwp-content%2fuploads%2f2019%2f11%2fMEDICAL-300x300.png&ehk=MErfXJdAvJyM6%2faBMe%2flYf8v5z1bTTTrzRdGmt4zSOE%3d&risl=&pid=ImgRaw&r=0" class="smallimg"/>Access Medical Records</a>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item ambu" href="#sectionambulance"><img src="https://i.etsystatic.com/10919371/r/il/a7e8c8/1512277774/il_570xN.1512277774_16hm.jpg" class="smallimg"/>Emergeny Ambulance</a>
+                        </div></a></div>
+                    
+                </div>
+            </div>
+            <div class="d-flex flex-column justify-content-center ji">
+                <div class="tre">
+                    <a href="#"><input placeholder="Search" class="search"></a>
+                    <a href="#" class="fas fa-search plus"></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="homebg" id="sectionhome">
+        <div class="d-flex flex-row justify-content-center">
+            <div id="carouselExampleIndicators" class="carousel slide couroselji" data-ride="carousel">
+                <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                
+                <div class="carousel-item active">
+                    <img src="https://www.wrnash.com/wp-content/uploads/2017/11/20210119_WRNash_Aventura_132.jpg" class="d-block w-100 carouselimg" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h1 class="gradient-text2 divhead">Welcome To Aventura Hospitals</h1>
+                      <p class="couroselpara">We Understand Your World</p>
+                    </div>
+                  </div>
+                  
+               
+                <div class="carousel-item ">
+                    <img src="https://i.pinimg.com/originals/3f/4d/90/3f4d90acba65579f0d27f1c9c5253026.jpg" class="d-block w-100 carouselimg" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5 class="gradient-text2" >High Grade Infrastructue</h5>
+                      <p class="couroselpara">Equiped With all Facilities</p>
+                    </div>
+                  </div>
+                
+                <div class="carousel-item ">
+                    <img src="https://www.miamiherald.com/news/local/community/miami-dade/xx70fh/picture20387868/alternates/LANDSCAPE_1140/Aventura%20Hospital" class="d-block w-100 carouselimg" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5 class="gradient-text2">Multispeciality Doctors</h5>
+                      <p class="couroselpara">Highly Talented Staffs</p>
+                    </div>
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+        <div class="d-flex flex-row justify-content-center ">
+            <div class="d-flex flex-row justify-content-center card12">
+                <div class="photopara d-flex flex-row justify-content-end">
+                    <div class="photopara1">
+                        <h2 class="cardhead">Healthcare Thats As Unique As You Are</h2>
+                        <p class="cardpara">At HCA Florida Aventura Hospital, we show up for your health. Our multidisciplinary teams partner with you to create personalized care plans, and as part of Florida's largest network of care, we provide you with the exact expertise and resources you need.</p>
+                        <a href="#sectionspeciality"><button  class="cardbutton">Learn More</button></a>
+                    </div>    
+                </div>
+            </div>
+           
+        </div>
+        <div class="d-flex flex-row justify-content-between">
+            <div class="scards">
+                <div class="d-flex flex-row justify-content-center">
+                    
+                    <div class="">
+                        <h1 class="h1">Why People Choose Us</h1>
+                        <p class="p1 d-flex flex-column justify-content-center">Our hospital is committed to offering advanced healthcare services with a compassionate, patient-focused approach in the Aventura community.</p>
+                    </div>
+                    
+                
+                </div>
+                <div class="d-flex flex-row">
+                        
+                    <div class="card3main">
+                        <div  class="card3 d-flex flex-row justify-content-between">
+                            
+                            <div>
+                                <img src="https://hcah-p-001-delivery.stylelabs.cloud/api/public/content/c5ece1c7c97a4bf991fdf2f2d0dc072e?w=360&t=w360" class="h2s" alt="">
+                            </div>
+                            <div>
+                                <h3 class="h3s">
+                                    We Live Here And Work Here
+                                </h3>
+                            </div>
+                        </div>
+                        <div  class="card3 d-flex flex-row justify-content-between">
+                            
+                            <div >
+                                <h3 class="h3s">
+                                    We Provide High Quality Care
+                                </h3>
+                            </div>
+                            <div>
+                                <img src="https://hcah-p-001-delivery.stylelabs.cloud/api/public/content/3d331f5673014ca7b944b65f6f760590?w=360&t=w360" class="h2s" alt="">
+                            </div>
+                            
+                        </div>
+                        <div  class="card3 d-flex flex-row">
+                            
+                            <div>
+                                <img src="https://hcah-p-001-delivery.stylelabs.cloud/api/public/content/22fc221c85194d0d841d8ebe8e63ae1c?w=360&t=w360" class="h2s" alt="">
+                            </div>
+                            <div>
+                                <h3 class="h3s">
+                                    We Are Part of Aventura Community
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="card4" id="sectionspeciality">
+                            <h2 class="card4head">Our Specialities</h2>
+                            <ul class="card4list">
+                                <li>Cardiology</li>
+                                <li>Diabetes</li>
+                                <li>ICU</li>
+                                <li>Neurological Care</li>
+                                <li>Orthopedic Care</li>
+                            </ul>
+                        </div>
+                        <div class="card4">
+                            <h2 class="card4head">Accredations</h2>
+                            <ul class="card4list">
+                                <li>Commission on Cancer accreditation</li>
+                                <li>Hospital accreditation from The Joint Commission</li>
+                                <li>Level II Trauma Center designation</li>
+                                <li>Thrombectomy Capable Stroke Center designation</li>
+                                <li>Most Trusted Brands by Times Now</li>
+                            </ul>
+                        </div>
+                        <div class="card4 ">
+                            <h2 class="card4head">Capabilities</h2>
+                            <ul class="card4list ">
+                                <li>24/7 emergency room (ER)</li>
+                                <li>Orthopedics & Spine Institute</li>
+                                <li>Comprehensive Stroke Center</li>
+                                <li>Robot-assisted surgery</li>
+                                <li>Structural heart procedures</li>
+                                <li>Level II Trauma Center</li>
+                            </ul>
+                        </div>
+                    </div>
+                
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    
+</div>
+<div class="d-flex flex-row justify-content-center doctors">
+
+    <div class="doctorsmain" id="sectiondoctor">
+        <h1 class="h1">Our Doctors</h1>
+        <div class="d-flex flex-row justify-content-between">
+            <div class="doctorcard">
+                <div class="d-flex  flex-row">
+                    <img src="https://woolfsoneye.com/wp-content/uploads/2015/12/square-doctor-300x300-7430221.jpg" class="doctorsimg"/>
+                    <div>
+                        <h4 class="doctorcardhead">Shaun D Smithson, MD</h4>
+                        <p class="listpro">Interventional Cardiology (45:years) </p>
+                    </div>
+                </div>
+                <div class="d-flex flex-row">
+                    <div>
+                        <h6 class="procedure">Procedures And Conditions</h6>
+                        
+                        <ul class="listpro">
+                            <li>Atherosclerosis Treatment</li>
+                            <li>Atrial Septal Defects</li>
+                            <li>Cardiac stress test</li>
+                            <li>Heart Attack</li>
+                            <li>Heart Disease</li>
+                        </ul>
+                    </div>
+                    <div class="d-flex flex-column justify-content-center">
+                        <div>
+                            <a href="#sectionpatient"><button class="doctorbuttoon">Book Appointment</button></a>
+                            <p>Doctor's code : 65y42s20yex</p>
+                        </div>
+                    </div>
+                </div>   
+            </div>
+
+            <div class="doctorcard">
+                <div class="d-flex  flex-row">
+                    <img src="https://shermanheart.wordpress.com/files/2009/07/bromet1.jpg" class="doctorsimg"/>
+                    <div>
+                        <h4 class="doctorcardhead">Andrew Hiller, MD</h4>
+                        <p class="listpro">Orthopaedic Surgery (35:years) </p>
+                    </div>
+                </div>
+                <div class="d-flex flex-row">
+                    <div>
+                        <h6 class="procedure">Procedures And Conditions</h6>
+                        
+                        <ul class="listpro">
+                            <li>ACL reconstruction surgery</li>
+                            <li>Orthopedic Surgery</li>
+                            <li>Bone Cancer</li>
+                            <li>Osteoarthritis</li>
+                            <li>Traumatic Foot and Ankle Injuries</li>
+                        </ul>
+                    </div>
+                    <div class="d-flex flex-column justify-content-center">
+                        <div>
+                            <a href="#sectionpatient"><button class="doctorbuttoon">Book Appointment</button></a>
+                            <p>Doctor's code : 60y32s18yex</p>
+                        </div>
+                    </div>
+                </div>   
+            </div>
+        </div>
+
+
+        <div class="d-flex flex-row justify-content-between">
+            <div class="doctorcard">
+                <div class="d-flex  flex-row">
+                    <img src="https://th.bing.com/th/id/OIP.WPYPa4GubQVLa0kQqXcfvwHaHa?pid=ImgDet&rs=1" class="doctorsimg"/>
+                    <div>
+                        <h4 class="doctorcardhead">Michelle L Lister, MD</h4>
+                        <p class="listpro">Cardiovascular Disease (28:years) </p>
+                    </div>
+                </div>
+                <div class="d-flex flex-row">
+                    <div>
+                        <h6 class="procedure">Procedures And Conditions</h6>
+                        
+                        <ul class="listpro">
+                            <li>Vascular Malformation</li>
+                            <li>Hypertension</li>
+                            <li>Electrocardiogram (ECG or EKG)</li>
+                            <li>Coronary angioplasty</li>
+                            <li>Heart Nuclear Imaging</li>
+                        </ul>
+                    </div>
+                    <div class="d-flex flex-column justify-content-center">
+                        <div>
+                            <a href="#sectionpatient"><button class="doctorbuttoon">Book Appointment</button></a>
+                            <p>Doctor's code : 30y21s08yex</p>
+                        </div>
+                    </div>
+                </div>   
+            </div>
+
+            <div class="doctorcard">
+                <div class="d-flex  flex-row">
+                    <img src="https://th.bing.com/th/id/OIP.0rNdvzmU8Ud4y24s-WH-KgHaHa?pid=ImgDet&w=1200&h=1200&rs=1" class="doctorsimg"/>
+                    <div>
+                        <h4 class="doctorcardhead">Marina Gorelik</h4>
+                        <p class="listpro">Psychiatry (25:years) </p>
+                    </div>
+                </div>
+                <div class="d-flex flex-row">
+                    <div>
+                        <h6 class="procedure">Procedures And Conditions</h6>
+                        
+                        <ul class="listpro">
+                            <li>Anxiety</li>
+                            <li>Mood Disorders</li>
+                            <li>Bipolar disorders</li>
+                            <li>Psychotherapy</li>
+                            <li>Medication Management</li>
+                        </ul>
+                    </div>
+                    <div class="d-flex flex-column justify-content-center">
+                        <div>
+                            <a href="#sectionpatient"><button class="doctorbuttoon">Book Appointment</button></a>
+                            <p>Doctor's code : 65y42s20yex</p>
+                        </div>
+                    </div>
+                </div>   
+            </div>
+        </div>
+
+
+
+        <div class="d-flex flex-row justify-content-between">
+            <div class="doctorcard">
+                <div class="d-flex  flex-row">
+                    <img src="https://th.bing.com/th/id/R.fa000a5ae7b5402cdedd1f9a3da869dd?rik=ELW%2fsik1HMqMvw&riu=http%3a%2f%2fthumbs.dreamstime.com%2fz%2fsmiling-doctor-16435583.jpg&ehk=y4S2VMVeBObw3Ew%2fzIP7hy5IS05coDs%2fCAbnpG%2bBPmw%3d&risl=&pid=ImgRaw&r=0" class="doctorsimg"/>
+                    <div>
+                        <h4 class="doctorcardhead">Kenneth M Zide, MD</h4>
+                        <p class="listpro">Clinical Cardiac Electrophysiology 45:years) </p>
+                    </div>
+                </div>
+                <div class="d-flex flex-row">
+                    <div>
+                        <h6 class="procedure">Procedures And Conditions</h6>
+                        
+                        <ul class="listpro">
+                            <li>Heart arrhythmia diagnosis and treatment</li>
+                            <li>Cardiac stress test</li>
+                            <li>Electrical cardioversion</li>
+                            <li>Endovenous ablation (varicose vein treatment)</li>
+                            <li>Pacemaker implantation and removal</li>
+                        </ul>
+                    </div>
+                    <div class="d-flex flex-column justify-content-center">
+                        <div>
+                            <a href="#sectionpatient"><button class="doctorbuttoon">Book Appointment</button></a>
+                            <p>Doctor's code : 30y14s12yex</p>
+                        </div>
+                    </div>
+                </div>   
+            </div>
+
+            <div class="doctorcard">
+                <div class="d-flex  flex-row">
+                    <img src="https://th.bing.com/th/id/OIP.EQXbII2-UyBgc3r2svpJFQHaHa?pid=ImgDet&rs=1" class="doctorsimg"/>
+                    <div>
+                        <h4 class="doctorcardhead">Limaris Barrios, MD</h4>
+                        <p class="listpro">Bariatric Surgery (35:years) </p>
+                    </div>
+                </div>
+                <div class="d-flex flex-row">
+                    <div>
+                        <h6 class="procedure">Procedures And Conditions</h6>
+                        
+                        <ul class="listpro">
+                            <li>Biopsy</li>
+                            <li>Diverticulitis</li>
+                            <li>Soft Tissue Procedures</li>
+                            <li>Hernia Repair</li>
+                            <li>Hernia Repair</li>
+                        </ul>
+                    </div>
+                    <div class="d-flex flex-column justify-content-center">
+                        <div>
+                            <a href="#sectionpatient"><button class="doctorbuttoon">Book Appointment</button></a>
+                            <p>Doctor's code : 35y23s20yex</p>
+                        </div>
+                    </div>
+                </div>   
+            </div>
+        </div>
+        <a href="https://www.hcafloridahealthcare.com/locations/aventura-hospital/physicians"><button class="doctorbuttoon1">
+            More...
+        </button></a>
+        <a href="#sectionvisitor"><button class="doctorbuttoon1">Book An Appointment</button></a>
+    </div>
+</div>
+<div class="patient" id="sectionpatient">
+    <div>
+        <h1 class="h1">For Patients</h1>
+    </div>
+    <div class="d-flex flex-row justify-content-between">
+        <div class="card41 d-flex flex-column" id="sectionpatientportal">
+            <h2 class="card4head" >Patient's Login Portal</h2>
+            <div>
+            <label class="procedure">Unique Code : </label>
+            <input class="inputm"  placeholder="Unique Code">
+            </div>
+            <div>
+            <label class="procedure">Name : </label>
+            <input class="inputm" placeholder="Name">
+            </div>
+            <div>
+            <label class="procedure">Doctor's code : </label>
+            <input class="inputm" placeholder="Doc's Code"> 
+            </div> 
+            <div>
+                <label class="procedure">Date of Birth : </label>
+                <input class="inputm" placeholder="DD/MM/YY"> 
+            </div>
+            <div class="d-flex flex-row justify-content-center">
+                <button class="doctorbuttoon2">Sign In..</button>
+            </div>
+        </div>
+        <div>
+            <img src="https://th.bing.com/th/id/R.d942b6cd927dd9468ee754c1a87e0d60?rik=v9PS%2fXeTf%2b0wBg&riu=http%3a%2f%2fwww.mrhoney.eu%2ffootage%2fmedicalsymbole.png&ehk=uM1K1%2fpotTyUiG79SEzODCwvkM6Fr83%2b7WSNAdWpyKg%3d&risl=&pid=ImgRaw&r=0" class="pimg"/>
+        </div>
+        <div class="card41">
+            <h2 class="card4head">Search For Doctors</h2>
+            <div>
+                <label class="procedure">Search With Speciality :</label>
+                <input class="inputm"  placeholder="Enter Speciality">
+            </div>
+            <div>
+                <label class="procedure">Search With DocCode : </label>
+                <input class="inputm" placeholder="Enter Doctor's code">
+            </div>
+            <div>
+                <label class="procedure">Search with doctorsname : </label>
+                <input class="inputm" placeholder="Enter Doctor's Name"> 
+            </div>
+            <div>
+                <label class="procedure">Search with Location</label>
+                <input class="inputm" placeholder="Enter Location"> 
+            </div>
+            <div class="d-flex flex-row justify-content-center">
+                <button class="doctorbuttoon2">Search</button>
+            </div>
+        </div>
+    </div>
+    <div class="d-flex flex-row ">
+        <div class="card51">
+            <h1 class="card51head" id="sectionmedical">Access Medical Records</h1>
+            <p class="card51para">Enter the details and get your old medical records and medicine details </p>
+        </div>
+        <div class="card51info d-flex flex-row justify-content-between">
+            <div class="">
+    `           <div>
+                    <label class="procedure">Name :</label>
+                    <input class="inputm"  placeholder="Enter Speciality">
+                </div>
+                <div>
+                    <label class="procedure">Undertaking Doctor : </label>
+                    <input class="inputm" placeholder="Enter Doctor's code">
+                </div>
+                <div>
+                    <label class="procedure">Doc's Code : </label>
+                    <input class="inputm" placeholder="Enter Doctor's Name"> 
+                </div>
+                <div>
+                    <label class="procedure">Password</label>
+                    <input class="inputm" placeholder="Enter Location"> 
+                </div>
+                <div class="d-flex flex-row justify-content-center">
+                    <button class="doctorbuttoon2">Submit</button>
+                </div>
+            </div>
+            <div>
+                <img src="https://www.locumjobsonline.com/blog/wp-content/uploads/2018/03/what-doctors-wish-their-patients-knew.jpg" class="card51img"/>
+            </div>
+                
+        </div>
+    </div>
+    <div>
+        <H2 class="cc">.....The Memories Of Trust.....</H2>
+        <p class="cc1">...We wish You a Very Healthy Living Ahead...</p>
+    </div>
+</div>
+        
+<div class="visitorbg" id="sectionvisitor">
+    <div>
+        <div>
+            <h1 class="h1">New Visitor</h1>
+        </div>
+        <div class="d-flex justify-content-center">
+            <div class="card61">
+                <h1 class="card51head card61head">Book an Appointment</h1>
+                <div class="d-flex flex-row justify-content-between">
+                    <div class="d-flex flex-column">
+                        <div>
+                        <label class="lable">Name</label>
+                        <input class="inputm" placeholder="Name">
+                        </div>
+                        <div>
+                        <label  class="lable">Address</label>
+                        <input class="inputm" placeholder="Address">
+                        </div>
+                        <div>
+                        <label  class="lable">Mobile-No</label>
+                        <input class="inputm" placeholder="Mobile-No">
+                        </div>
+                        <div>
+                        <label  class="lable">Date Of Visit</label>
+                        <input class="inputm" placeholder="DD/MM/YYYY">
+                        </div>
+                        <div>
+                        <label  class="lable">Expected Time</label>
+                        <input class="inputm" placeholder="HH:MM(24hr)">
+                        </div>
+                        <div>
+                        <label  class="lable">Preffered Doctors's code</label>
+                        <input class="inputm" placeholder="Enter doc code or leave blank">
+                        </div>
+                        <div>
+                        <label  class="lable">Any Previous Medication From Previous doctor</label>
+                        <input class="inputm" placeholder="Name" type="radio">
+                        </div>
+                    </div>
+                    <div>
+                        <img src="https://thumbs.dreamstime.com/b/female-doctor-hold-hold-arm-silver-pen-pad-female-doctor-hold-hold-arm-silver-pen-pad-ward-round-check-101969844.jpg" class="card61img" alt="">
+                    </div>
+                </div>
+                <h1 class="kihja">(***If you are already a Patient then Use Sign In Portal <a href="#sectionpatientportal"><span>Click Here</span></a>***)</h1>
+                <div class="card61 lk" id="sectionambulance">
+                    <h1 class="card51head ">Emergeny Ambulance Call</h1>
+                    <input class="lable inputm pp" placeholder="Enter location">
+                    <input class="lable inputm pp" placeholder="Enter Mobile-Number">
+                    <button class="doctorbuttoon2">Submit</button>
+                    <h2 class="op" >Or You Can Directly Call 108/(306) 756-998-9087</h2>
+
+                    
+                </div>
+            </div>
+            
+        </div>
+       
+    </div>
+</div>
+
+
+
+
+<footer>
+    <div class="d-flex flex-row justify-content-center footubg">
+        <div class="footnew">
+            <h4 class="foothead">Sign in for newsletter :</h4>
+            <input placeholder="Enter Your Email" class="lable inputm pp">
+        </div>
+        <p class="footdash">|</p>
+        <div class="footnew">
+            <h4 class="foothead">Follow us..</h4>
+            <a href="https://www.facebook.com/HCAFLHealthcare/"><img src="https://th.bing.com/th/id/R.150632bbcd1eede1f373795b2f807305?rik=OA2Tkg7nlS2t1w&riu=http%3a%2f%2fwww.clipartbest.com%2fcliparts%2fKin%2fgBR%2fKingBR7XT.jpeg&ehk=gRHtCwmSk79I58oMP%2f%2fgGLC3%2f1V3wxCTjTVeCKCifG8%3d&risl=&pid=ImgRaw&r=0" class="footimg"/></a>
+            <a href="https://www.instagram.com/aventurahospitalmc/"><img src="https://i.pinimg.com/originals/1b/c7/57/1bc75772d9e057f97d2e1b98435b1330.png" class="footimg"/></a>
+            <a href="https://twitter.com/HCAFLHealthcare"><img src="https://th.bing.com/th/id/OIP.Sbs-M2-y31gNoj9n-IIeowHaHa?pid=ImgDet&rs=1" class="footimg"/></a>
+            <a href="https://www.youtube.com/c/hcafloridahealthcare/featured"><img src="https://pnggrid.com/wp-content/uploads/2021/05/Square-YouTube-Logo-PNG-2048x2048.png" class="footimg"/></a>
+            <a href="https://www.linkedin.com/company/hca-florida-healthcare/"><img src="https://th.bing.com/th/id/R.d86a02cea4314ad84a6f8562d888daba?rik=cVUyavJqAjDP8Q&riu=http%3a%2f%2fsequoiapersonnel.com%2fwp-content%2fuploads%2f2014%2f05%2flinkedinsquarelogo.png&ehk=0mJysfcUgURTrNjZTd0MI49tLvggPNHpNfAVXzoKV2Q%3d&risl=&pid=ImgRaw&r=0" class="footimg"/></a>
+            <a href="#sectionhome"><img src="https://logodix.com/logo/577407.png" class="footimg"/></a>
+            
+        </div>
+        
+    </div>
+    <div class="footmbg">
+        <div class="d-flex flex-row">
+            <div><h4 class="foothead fo">Sponsered Partners :</h4></div>
+            <a href="https://promotions.bankofamerica.com/consumer/multiproduct?cm_mmc=ENT-Consumer-_-MSN-PS-_-bank_america-_-Brand_CoreBrand&gclid=fe82f63b3fda113d697195e4cf6965c6&gclsrc=3p.ds&msclkid=fe82f63b3fda113d697195e4cf6965c6"><div class="d-flex flex-column sponser">
+            <img src="https://www.charlotteobserver.com/latest-news/4s7bw4/picture221786265/alternates/FREE_1140/Bank_of_America_logo_(vertical).jpg" class="footspimg"/>
+            <p class="footsmallp">Bank Of America</p>
+            </div></a>
+            <a href="https://www.vmware.com/in.html"><div class="d-flex flex-column sponser">
+                <img src="https://bmbsolutions.com/wp-content/uploads/2015/08/VMware-logo-1.jpg" class="footspimg"/>
+                <p class="footsmallp">V.M Ware</p>
+            </div></a>
+            <a href="https://www.persistent.com/"><div class="d-flex flex-column sponser">
+                <img src="https://th.bing.com/th/id/R.fcb8653d0fe4c3e271419a5a269dc742?rik=oBfnXCJXFc5Y0A&riu=http%3a%2f%2fphotos.prnewswire.com%2fprnfull%2f20141106%2f714346%3fmax%3d950&ehk=N7hRSuenxiteRCceF4jz4Lp%2bs7d0PqAnpDpUSfZN91w%3d&risl=&pid=ImgRaw&r=0" class="footspimg"/>
+                <p class="footsmallp">Persistent</p>
+            </div></a>
+            <a href="https://www.infosys.com/"><div class="d-flex flex-column sponser">
+                <img src="https://www.govloop.com/wp-content/uploads/2018/08/infosys.jpg" class="footspimg"/>
+                <p class="footsmallp">Infosys</p>
+            </div></a>
+            <a href="https://www.aiims.edu/en.html"><div class="d-flex flex-column sponser">
+                <img src="https://www.medicircle.in/uploads/2020/january2020/aiims_logo_edit.jpg" class="footspimg"/>
+                <p class="footsmallp">AIIMS New Delhi</p>
+            </div></a>
+            <a href="https://www.debeers.com/en-us/home"><div class="d-flex flex-column sponser">
+                <img src="https://logos-download.com/wp-content/uploads/2020/06/De_Beers_Logo_old_full.png" class="footspimg"/>
+                <p class="footsmallp">De-Beers</p>
+            </div></a>
+        </div>
+    </div>
+    <div class="footlbg">
+        <div class="d-flex flex-row">
+            <a href="#" class="fas fa-plus plus imhhg"></a>
+            <div class="likhgh">
+                <div>
+                <h1 class="mbuji">HCA Florida Aventura Hospital</h1>
+                <div>
+                    <p class="bgiuohuh">20900 Biscayne Blvd</p>
+                    <p class="bgiuohuh">Aventura, FL 33180</p>
+                </div>
+                </div>
+                
+            </div>
+        </div>
+        <hr>
+        <div>
+            <p class="smallio">
+                Copyright 1999-2022 C-HCA, Inc.; All rights reserved.
+            </p>
+            <div class="d-flex flex-row justify-content-center">
+            <p class="jhgy">Terms of Use</p><p class="jhgy">|</p>
+            <p class="jhgy">Notice of Privacy Practices</p><p class="jhgy">|</p>
+            <p class="jhgy">Privacy Policy</p><p class="jhgy">|</p>
+            <p class="jhgy">Social Media Policy</p><p class="jhgy">|</p>
+            <p class="jhgy">Acceptable Use Policy</p><p class="jhgy">|</p>
+            <p class="jhgy">Surprise Billing</p><p class="jhgy">|</p>
+            <p class="jhgy">Physician Sitemap</p><p class="jhgy">|</p>
+            </div>
+        </div>
+        
+    </div>
+</footer>    
+
+
+
+
+</body>
+</html>

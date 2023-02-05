@@ -1,0 +1,495 @@
+
+.gradient-text{
+    font-size: 2.5rem;
+    background: -webkit-linear-gradient(rgb(255, 0, 0), rgb(120, 0, 0));
+    background-clip: content-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom:1rem;
+  }
+  .dtoogle{
+text-align: center;
+margin-bottom:0rem;
+border-radius: 10px;
+font-size: 2.5rem;}
+  .plus{
+    font-size:3rem;
+    border-color:rgba(0,0,0,.1);
+    color:red;
+    display:flex;
+    
+    border-style:solid;
+    border-radius:10px;
+    box-shadow:0rem .2rem rgba(0,0,0,.1); 
+    border-width:1px;
+    height: 3.1rem;
+    width:3.1rem;
+    text-align:center;
+  }
+a:hover{border-radius:60px;
+  color:blue;
+  
+text-decoration: none;
+transition-duration: 400ms;
+}
+
+.nav2{
+    box-shadow:0.5rem .5rem rgba(0,0,0,.1);
+padding:1.5rem;
+border-radius:10px;
+padding-left: 2rem;
+padding-right:2rem;
+z-index: 100;
+position:fixed;
+width:100vw;
+background-color: white;
+height:10vh
+}
+
+.ambu{background-color: rgb(216, 0, 0);}
+
+nav .new .ji .kl a{font-size: 2rem;
+margin-left:2rem;
+color:rgba(0,0,0,5);}
+
+
+nav .new .ji .kl a:hover{color:rgb(203, 4, 4);
+text-decoration: none;
+transform: scale(1.25);
+ transition-duration: 400ms;
+font-weight:400;}
+
+.search{width:17rem;
+height:2rem;
+cursor:pointer;
+box-shadow:0rem .4rem rgba(0,0,0,.1);}
+nav .new .tre a:hover .search{border-radius:30px;
+    transform: scale(1.25);
+transition-duration:400ms;}
+nav .new .ji .kl a:hover .dropdown-toogle {transition-duration:400ms;}
+
+.smallimg{height:3rem;
+width:3rem;}
+
+
+.navopt{font-size: 1.8rem;
+}
+
+
+
+
+
+.homebg{background-color: rgb(255, 249, 249);
+        height:100vh;}
+
+.carouselimg{height:50vh;
+width:40vw;
+z-index: 90;
+margin-top: 16vh;
+background-size: cover;
+border-radius: 20px;}
+.couroselji{width:80vw;
+  transition-duration:800ms;
+}
+.couroselji:hover{ transform: scale(1.15);
+  border-radius: 40px;}
+  .carouselimg:hover{border-radius: 60px;
+    transition-duration:800ms;}
+
+
+    .gradient-text2{
+      font-size: 4rem;
+      background: -webkit-linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255));
+      background-clip: content-box;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin:.5rem;
+      font-weight: bolder;
+
+    }
+
+    .couroselpara{font-size: 2.5rem;
+    }
+    .divhead{      background-color:rgb(255, 199, 199);}
+
+    .photopara{height:50vh;
+    width:85vw;
+  background-image:url("https://wallpapercave.com/wp/wp2968524.jpg");
+background-size:cover;
+box-shadow:0.2rem .2rem rgba(0,0,0,.1);
+
+}
+.homebg{background-color: #fff;
+height:280vh}
+
+.photopara1{height:50vh;
+width:40vw;
+background-color:rgb(255, 250, 250);
+opacity:1;
+padding:2rem;
+padding-left: 8rem;
+border-top-left-radius:250px;
+border-bottom-left-radius: 250px;}
+.photopara1:hover{transform: scale(1.06);
+  transition-duration: 500ms;
+border-radius: 0px;
+background-color: rgb(247, 173, 173);}
+.card12{padding:1rem;
+  box-shadow:0.2rem .2rem .2rem .2rem rgba(0,0,0,.1);
+  margin:2rem;
+
+  width:90vw;
+  height:55vh;
+
+}
+.cardhead{background: -webkit-linear-gradient(rgb(222, 0, 0), rgb(61, 0, 0));
+  background-clip: content-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+font-size: 2rem;
+opacity:100;}
+.cardpara{font-size: 1.5rem;
+}
+.cardbutton{background: -webkit-linear-gradient(rgb(222, 0, 0), rgb(61, 0, 0));
+color:#fff;
+border-style: none;
+border-width:0px;
+border-radius:5px;
+height:2.5rem;
+width:9rem;}
+.cardbutton:hover{ transform: scale(1.5);
+transition-duration: 500ms;}
+
+.scards{background-image: url("https://phasiumpower.com/wp-content/uploads/2018/08/iStock-812779700-doctors-thumbs-up-1354x645.jpg");
+height:150vh;
+width:99vw;
+background-size:cover;
+}
+.gradient-text{
+  font-size: 2.5rem;
+  background: -webkit-linear-gradient(rgb(255, 0, 0), rgb(120, 0, 0));
+  background-clip: content-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin:.5rem;
+}
+.h1{ background: -webkit-linear-gradient(rgb(255, 0, 0), rgb(45, 5, 5));
+  background-clip: content-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+text-align: center;
+font-size: 4rem;
+font-weight: bold;
+margin:1.5rem;}
+.p1{font-size:2rem;
+color:rgb(68, 64, 64);
+width:70vw;
+text-align: center;
+margin:0.5rem;
+}
+.card3{background-color: #fff;
+  box-shadow:0.2rem .2rem  rgba(0,0,0,.1);
+  width:45vw;
+  border-radius: 25px;
+  height:25vh
+}
+.card3main{margin:3rem;
+border-radius: 45px;
+width:60vw;
+}
+.h3s{text-align: center;
+margin:3rem;}
+.h2s{margin:rem;
+  height:25vh;
+  border-radius: 25px;
+  
+}
+.njjsabcv{height:40vh;}
+.card3:hover{transform: scale(1.02);
+  transition-duration: 350ms;}
+
+  .card4{width:40vw;
+  height:35vh;
+background-color: #fff;
+margin: 3rem;
+border-radius:25px;
+cursor:pointer;
+box-shadow: 0.1rem .2rem rgb(198, 196, 196);}
+.card4head{background: -webkit-linear-gradient(rgb(255, 0, 0), rgb(45, 5, 5));
+color:#fff;
+text-align: center;
+font-size: 2rem;
+padding:0.5rem;
+
+border-top-right-radius:25px;
+border-top-left-radius:25px;
+}
+.card4list{font-size: 1.5rem;
+color:rgb(85, 33, 33);
+margin:1rem;
+}
+.card4list li:hover{font-weight: bold;
+  transform: scale(1.2);
+transition-duration: 350ms;}
+
+
+.doctorsmain{z-index: 50;
+margin-top:rem;
+width:99vw;
+height:220vh;
+background-color: rgb(255, 250, 250);
+text-align: center;
+padding:2.5rem
+}
+.doctorcardhead{font-size:2.5rem;
+margin:1rem;
+background: -webkit-linear-gradient(rgb(255, 0, 0), rgb(120, 0, 0));
+  background-clip: content-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.doctorsimg{height:8rem;
+width:8rem;
+margin:.5rem}
+.doctorcard{background-color: #fff;
+width:45vw;
+margin:2rem;
+box-shadow:0.1rem .2rem  rgba(0,0,0,.1);
+}
+.procedure{margin:1rem;
+font-size: 1rem;
+}
+.listpro{font-size: 1.5rem;
+margin:1rem}
+.doctorbuttoon{background: -webkit-linear-gradient(rgb(222, 0, 0), rgb(61, 0, 0));
+  color:#fff;
+  border-style: none;
+  border-width:0px;
+  border-radius:5px;
+  height:2.5rem;
+  width:10rem;}
+.doctorbuttoon:hover{transform: scale(1.2);
+transition-duration: 500ms;}
+.listpro li:hover{transform: scale(1.1);
+  transition-duration: 300ms;}
+  .doctorbuttoon1{background: -webkit-linear-gradient(rgb(222, 0, 0), rgb(61, 0, 0));
+    color:#fff;
+    border-style: none;
+    border-width:0px;
+    border-radius:5px;
+    height:2.5rem;
+    width:15rem;
+  margin:3rem}
+  .doctorbuttoon1:hover{transform: scale(1.1);
+    transition-duration: 300ms;}
+
+
+
+.patient{background-color: rgb(248, 239, 239);
+height:250vh;
+width:99vw;
+padding:1rem}
+.inputm{width:20rem;
+height:3rem;
+border-radius:8px;}
+
+.card41{width:40vw;
+  height:75vh;
+background-color: #fff;
+margin: 3rem;
+border-radius:25px;
+box-shadow: 0.1rem .2rem rgb(198, 196, 196);}
+.doctorbuttoon2{background: -webkit-linear-gradient(rgb(222, 0, 0), rgb(61, 0, 0));
+  color:#fff;
+  border-style: none;
+  border-width:0px;
+  border-radius:5px;
+  height:3rem;
+  width:15rem;
+margin:2rem;
+font-size: 1.5rem;}
+.doctorbuttoon2:hover{transform: scale(1.1);
+  transition-duration: 300ms;
+border-radius: 20px;}
+.pimg{height:40rem;
+width:25rem}
+.inputm:hover{transform: scale(1.2);
+border-radius: 30px;
+transition-duration: 300ms;}
+.card51{width:30rem;
+  background: -webkit-linear-gradient(rgb(255, 0, 0), rgb(45, 5, 5));
+  color:#fff;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+  height:65vh;
+  margin-left: 4rem;;
+  
+}
+.card51head{background: -webkit-linear-gradient(rgb(255, 0, 0), rgb(45, 5, 5));
+  color:#fff;
+  text-align: center;
+  font-size: 2rem;
+  padding:0.5rem;
+border-top-left-radius: 40px;}
+.card51para{border-bottom-left-radius: 40px;
+font-size: 3rem;
+margin:1rem}
+.card51info{width:70vw;
+height:65vh;
+background-color: #fff;
+border-top-right-radius:40px ;
+border-bottom-right-radius: 40px;
+}
+.card51img{height:65vh;
+  border-top-right-radius:40px ;
+border-bottom-right-radius: 40px;
+width:35vw;
+}
+.cc{text-align: center;
+
+font-family:monospace;}
+.cc1{text-align: center;
+font-size: 4rem;}
+
+.card61{height:75vh;
+width:80vw;
+box-shadow:0.1rem .2rem  rgba(0,0,0,.1);
+border-radius: 40px;
+background-color: crimson; }
+
+.card61head{border-top-right-radius: 40px;}
+.lable{font-size:2rem;
+color:#ffff;
+font-weight:500;
+margin:1rem}
+.card61img{height:54vh;}
+.pp{width:30rem;}
+.op{color:#ffff;
+margin:2rem}
+.lk{height:30vh;}
+.visitorbg{height:170vh;}
+.foothead{font-size:3rem;
+text-align: center;
+color:white;}
+.footdash{font-size: 10rem;
+font-weight:lighter;
+color:crimson}
+.footnew{padding-top:5rem;}
+.footimg{height:5rem;
+border-radius: 50px;}
+.footubg{background-color: black;
+padding:.2rem;}
+.footimg:hover{transform: scale(1.1);
+transition-duration: 300ms;}
+.footmbg{background-color: darkred;
+  padding:.2rem;
+}
+.fo{text-align: start;
+padding:.5rem;}
+.footspimg{height:6rem;
+width:9rem;}
+.footsmallp{color:#fff;
+font-size: 1rem;
+text-align: center;}
+.sponser{margin-left:3rem;
+margin-top:.5rem;
+margin-bottom:.5rem}
+.mbuji{margin-top:1rem;}
+.imhhg{height:8rem;
+width:8rem;
+font-size:8rem;
+margin:2rem;}
+.likhgh{margin-top:2rem;}
+.smallio{font-size:2rem;
+text-align: center;}
+.bgiuohuh{font-size:1.5rem;}
+.jhgy{font-size:1rem;
+margin:.5rem;}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1000px){
+  .gradient-text{font-size: 1.5rem;}
+  .navopt{font-size:1rem;}
+  .dtoogle{font-size:.5rem;}
+.cardhead{font-size:1.5rem;}
+.cardpara{font-size:.5rem;
+height:30vh;}
+.photopara1{width:55vw;
+height:30vh}
+.cardbutton{width:6rem;
+height:2rem;
+margin: 0px;
+opacity:0;}
+.card12{height:30vh;}
+.carouselimg{height:30vh;}
+.photopara1{height:30vh;}
+.photopara{height:30vh;}
+.card12{height:30vh;}
+.h1{font-size: 2rem;}
+.p1{font-size: 1.5rem;}
+.h2s{height:10rem;
+width:9rem}
+.card3{height:10rem}
+.h3s{font-size:1rem}
+.card3main{width:9rem}
+.card4{width:40vw;
+height:20vh;
+margin:0px;}
+.card4head{font-size:1rem;}
+.card4list{font-size: .5rem;}
+.card3main{margin:0px;
+opacity:0}
+.doctorcard{height:50vh;
+width:40vw}
+.doctorsimg{height:3rem;
+width:3rem;}
+.doctorcardhead{font-size:1.5rem}
+.listpro{font-size:1rem}
+.procedure{font-size:1rem;}
+.listpro{font-size:1rem}
+.doctorbuttoon{width:6.5rem;
+height:3rem}
+.inputm{width:20vw;
+height:5vh}
+.pimg{height:5rem;
+width:3rem;}
+.patient{width:100vw;}
+.card41{margin:.5rem;
+height:65vh}
+.doctorbuttoon2{height:2.4rem;
+width:6rem;}
+.card51head{font-size:1rem;}
+.card51para{font-size:1rem;}
+.card51{width:20vw;
+height:50vh}
+.card51info{
+  height:50vh}
+  .card51img{height:50vh}
+.card61{height:65vh;}
+.lable{font-size:1rem;}
+.kihja{font-size:1rem;}
+.lk{height:31vh}
+.footnew{height:30vh;}
+.foothead{font-size: 2rem;}
+.footimg{height:3.5rem;}
+.fo{font-size:1.5rem}
+.footspimg{height:2.5rem;
+  margin:rem;
+width:3rem;}
+.imhhg{height:2rem;
+  width:2rem;
+font-size: 2rem;}
+.mbuji{font-size:1.5rem}
+.bgiuohuh{font-size:1rem}
+
+.smallio{font-size:1rem}
+.jhgy{font-size:.5rem;}
+
+}
+  
